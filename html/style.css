@@ -1,0 +1,92 @@
+/* This applies to all elements (bad practice) */
+
+body {
+
+	color: #fff;
+
+	font-family: 'Roboto', sans-serif !important;
+
+}
+
+h4 {
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif !important;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 1em;
+	margin-top: .5em;
+}
+
+
+
+/* This css centers at the middle of the screen */
+
+#container {
+	width: 50%;
+
+	padding: 1em;
+
+	text-shadow: 2px 2px 5px #424242;
+
+  position: absolute;
+
+  color: rgb(241, 235, 235);
+
+  top: 47%;
+
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+	text-align: center;
+
+	background-color: rgba(39, 39, 39, 0.5);
+
+	border-radius: 25px;
+
+	border: 2px solid #272727 ;
+
+}
+
+
+
+table {
+	width: 100%;
+}
+
+table th {
+	padding: 1em;
+}
+
+table td {
+	text-align: center;
+	padding: .2em;
+}
+
+div.key
+{
+	padding: 1px;
+	margin: 10px;
+}
+div.key > span
+{
+	padding: .5em;
+	width: 35px;
+	height: 35px;
+	border: 1px solid #fff;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px 2px 2px 2px;
+	-webkit-border-radius: 2px 2px 2px 2px;
+	font-size: 12px;
+	-moz-box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	-webkit-box-shadow: 0px 3px 0px -2px rgba(255,255,255,1), 0px 2px 0px 0px rgba(169,169,169,1);
+	-moz-box-shadow: 0px 3px 0px -2px rgba(255,255,255,1), 0px 2px 0px 0px rgba(169,169,169,1);
+	box-shadow: 0px 3px 0px -2px rgba(255,255,255,1), 0px 2px 0px 0px rgba(169,169,169,1);
+}
